@@ -1,0 +1,27 @@
+.sections-nav {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	left: calc(50% - (177.78px/2));
+	background: white;
+	border: 1px solid $light-gray;
+	border-bottom: none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.sections-nav a {
+	margin: 0 5px;
+	text-transform: uppercase;
+	font-family: $sans-serif;
+	font-size: 10px;
+	color: $dark-gray;
+}
+
+.sections-nav li:first-of-type a {
+	font-weight: bold;
+}
+
+.sections-nav ul {
+	display: flex;
+}

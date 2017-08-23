@@ -1,0 +1,40 @@
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.left-nav > ul > li {
+  float: left;
+}
+
+.right-nav > ul > li {
+  float: right;
+}
+
+.right-nav > ul > li:last-of-type {
+
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}
+
+i.fa-cog {
+  font-size: 20px;
+}
