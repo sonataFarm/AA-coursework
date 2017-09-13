@@ -1,0 +1,49 @@
+body {
+  margin: 25px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+.clock {
+  align-items: center;
+  background: #92ccff;
+  border: 2px solid red;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Allerta Stencil';
+  justify-content: center;
+  margin: auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.weather-container {
+  margin: 20px auto;
+  width: 50%;
+  padding: 20px;
+  border: 2px solid black;
+  background: orange;
+  text-align: center;
+}
+
+.weather-row {
+  font: Arial;
+}
+
+.autocomplete-container {
+  padding: 20px;
+  border: 1px solid black;
+  width: 30%;
+  margin: auto;
+
+}
+.autocomplete input {
+  border: 1px solid black;
+}
